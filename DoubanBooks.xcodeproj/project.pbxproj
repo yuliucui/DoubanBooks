@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA7FE25C2351509C00BBEB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FE25B2351509C00BBEB14 /* AppDelegate.swift */; };
+		BA7FE25E2351509C00BBEB14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FE25D2351509C00BBEB14 /* ViewController.swift */; };
+		BA7FE2612351509C00BBEB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7FE25F2351509C00BBEB14 /* Main.storyboard */; };
+		BA7FE2642351509C00BBEB14 /* DoubanBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA7FE2622351509C00BBEB14 /* DoubanBooks.xcdatamodeld */; };
+		BA7FE266235150A400BBEB14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7FE265235150A400BBEB14 /* Assets.xcassets */; };
+		BA7FE269235150A400BBEB14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7FE267235150A400BBEB14 /* LaunchScreen.storyboard */; };
+		BA7FE274235150A400BBEB14 /* DoubanBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FE273235150A400BBEB14 /* DoubanBooksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA7FE270235150A400BBEB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA7FE2502351509C00BBEB14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA7FE2572351509C00BBEB14;
+			remoteInfo = DoubanBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA7FE2582351509C00BBEB14 /* DoubanBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7FE25B2351509C00BBEB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA7FE25D2351509C00BBEB14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA7FE2602351509C00BBEB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA7FE2632351509C00BBEB14 /* DoubanBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoubanBooks.xcdatamodel; sourceTree = "<group>"; };
+		BA7FE265235150A400BBEB14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA7FE268235150A400BBEB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA7FE26A235150A400BBEB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7FE26F235150A400BBEB14 /* DoubanBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7FE273235150A400BBEB14 /* DoubanBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanBooksTests.swift; sourceTree = "<group>"; };
+		BA7FE275235150A400BBEB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA7FE2552351509C00BBEB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7FE26C235150A400BBEB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA7FE24F2351509C00BBEB14 = {
+			isa = PBXGroup;
+			children = (
+				BA7FE25A2351509C00BBEB14 /* DoubanBooks */,
+				BA7FE272235150A400BBEB14 /* DoubanBooksTests */,
+				BA7FE2592351509C00BBEB14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA7FE2592351509C00BBEB14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FE2582351509C00BBEB14 /* DoubanBooks.app */,
+				BA7FE26F235150A400BBEB14 /* DoubanBooksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA7FE25A2351509C00BBEB14 /* DoubanBooks */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FE25B2351509C00BBEB14 /* AppDelegate.swift */,
+				BA7FE25D2351509C00BBEB14 /* ViewController.swift */,
+				BA7FE25F2351509C00BBEB14 /* Main.storyboard */,
+				BA7FE265235150A400BBEB14 /* Assets.xcassets */,
+				BA7FE267235150A400BBEB14 /* LaunchScreen.storyboard */,
+				BA7FE26A235150A400BBEB14 /* Info.plist */,
+				BA7FE2622351509C00BBEB14 /* DoubanBooks.xcdatamodeld */,
+			);
+			path = DoubanBooks;
+			sourceTree = "<group>";
+		};
+		BA7FE272235150A400BBEB14 /* DoubanBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FE273235150A400BBEB14 /* DoubanBooksTests.swift */,
+				BA7FE275235150A400BBEB14 /* Info.plist */,
+			);
+			path = DoubanBooksTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA7FE2572351509C00BBEB14 /* DoubanBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7FE278235150A400BBEB14 /* Build configuration list for PBXNativeTarget "DoubanBooks" */;
+			buildPhases = (
+				BA7FE2542351509C00BBEB14 /* Sources */,
+				BA7FE2552351509C00BBEB14 /* Frameworks */,
+				BA7FE2562351509C00BBEB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubanBooks;
+			productName = DoubanBooks;
+			productReference = BA7FE2582351509C00BBEB14 /* DoubanBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA7FE26E235150A400BBEB14 /* DoubanBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7FE27B235150A400BBEB14 /* Build configuration list for PBXNativeTarget "DoubanBooksTests" */;
+			buildPhases = (
+				BA7FE26B235150A400BBEB14 /* Sources */,
+				BA7FE26C235150A400BBEB14 /* Frameworks */,
+				BA7FE26D235150A400BBEB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA7FE271235150A400BBEB14 /* PBXTargetDependency */,
+			);
+			name = DoubanBooksTests;
+			productName = DoubanBooksTests;
+			productReference = BA7FE26F235150A400BBEB14 /* DoubanBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA7FE2502351509C00BBEB14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 2017yd;
+				TargetAttributes = {
+					BA7FE2572351509C00BBEB14 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BA7FE26E235150A400BBEB14 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BA7FE2572351509C00BBEB14;
+					};
+				};
+			};
+			buildConfigurationList = BA7FE2532351509C00BBEB14 /* Build configuration list for PBXProject "DoubanBooks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA7FE24F2351509C00BBEB14;
+			productRefGroup = BA7FE2592351509C00BBEB14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA7FE2572351509C00BBEB14 /* DoubanBooks */,
+				BA7FE26E235150A400BBEB14 /* DoubanBooksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA7FE2562351509C00BBEB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7FE269235150A400BBEB14 /* LaunchScreen.storyboard in Resources */,
+				BA7FE266235150A400BBEB14 /* Assets.xcassets in Resources */,
+				BA7FE2612351509C00BBEB14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7FE26D235150A400BBEB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA7FE2542351509C00BBEB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7FE25E2351509C00BBEB14 /* ViewController.swift in Sources */,
+				BA7FE2642351509C00BBEB14 /* DoubanBooks.xcdatamodeld in Sources */,
+				BA7FE25C2351509C00BBEB14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7FE26B235150A400BBEB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7FE274235150A400BBEB14 /* DoubanBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA7FE271235150A400BBEB14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA7FE2572351509C00BBEB14 /* DoubanBooks */;
+			targetProxy = BA7FE270235150A400BBEB14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA7FE25F2351509C00BBEB14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA7FE2602351509C00BBEB14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA7FE267235150A400BBEB14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA7FE268235150A400BBEB14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA7FE276235150A400BBEB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA7FE277235150A400BBEB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA7FE279235150A400BBEB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubanBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-01712.DoubanBooks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA7FE27A235150A400BBEB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubanBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-01712.DoubanBooks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA7FE27C235150A400BBEB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubanBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-01712.DoubanBooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanBooks.app/DoubanBooks";
+			};
+			name = Debug;
+		};
+		BA7FE27D235150A400BBEB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoubanBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-01712.DoubanBooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubanBooks.app/DoubanBooks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA7FE2532351509C00BBEB14 /* Build configuration list for PBXProject "DoubanBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7FE276235150A400BBEB14 /* Debug */,
+				BA7FE277235150A400BBEB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7FE278235150A400BBEB14 /* Build configuration list for PBXNativeTarget "DoubanBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7FE279235150A400BBEB14 /* Debug */,
+				BA7FE27A235150A400BBEB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7FE27B235150A400BBEB14 /* Build configuration list for PBXNativeTarget "DoubanBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7FE27C235150A400BBEB14 /* Debug */,
+				BA7FE27D235150A400BBEB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA7FE2622351509C00BBEB14 /* DoubanBooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA7FE2632351509C00BBEB14 /* DoubanBooks.xcdatamodel */,
+			);
+			currentVersion = BA7FE2632351509C00BBEB14 /* DoubanBooks.xcdatamodel */;
+			path = DoubanBooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA7FE2502351509C00BBEB14 /* Project object */;
+}
