@@ -37,8 +37,6 @@ class CategoryRepository {
         }
         
     }
-    
-    
     func get() throws -> [VMCategory] {
         var categories = [VMCategory]()
         let fetch = NSFetchRequest<NSFetchRequestResult>(entityName: VMCategory.entityName)

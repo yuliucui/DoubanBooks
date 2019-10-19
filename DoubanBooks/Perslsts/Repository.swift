@@ -102,6 +102,7 @@ class Repository<T: DataViewModelDelegate> where T:NSObject {
         var args = [String]()
         for col in cols{
             format += "\(col) like[c] %@ || "
+          
             args.append(keyword)
             
         }

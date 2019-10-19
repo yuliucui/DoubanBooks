@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA650AC7235A8EF500F33062 /* AddCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA650AC6235A8EF500F33062 /* AddCategoryController.swift */; };
+		BA650AC9235ABC3E00F33062 /* CategoryTimeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA650AC8235ABC3E00F33062 /* CategoryTimeList.plist */; };
+		BA650ACB235AC02A00F33062 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA650ACA235AC02A00F33062 /* DateExtensions.swift */; };
+		BA650ACD235AC04800F33062 /* QrCodeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA650ACC235AC04800F33062 /* QrCodeUtils.swift */; };
 		BA65343A2353F53A001A6480 /* CategoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6534392353F53A001A6480 /* CategoryFactory.swift */; };
 		BA66791B2357F3F30050FC7F /* BookFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66791A2357F3F30050FC7F /* BookFactory.swift */; };
+		BA7F82AF23595D5F0070EFCF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F82AE23595D5F0070EFCF /* CategoryCell.swift */; };
+		BA7F82B1235960C30070EFCF /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F82B0235960C30070EFCF /* CategoriesController.swift */; };
+		BA7F82B32359690F0070EFCF /* AlertExtenslons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F82B22359690F0070EFCF /* AlertExtenslons.swift */; };
 		BA7FE25C2351509C00BBEB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FE25B2351509C00BBEB14 /* AppDelegate.swift */; };
 		BA7FE25E2351509C00BBEB14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FE25D2351509C00BBEB14 /* ViewController.swift */; };
 		BA7FE2612351509C00BBEB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7FE25F2351509C00BBEB14 /* Main.storyboard */; };
@@ -36,8 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA650AC6235A8EF500F33062 /* AddCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryController.swift; sourceTree = "<group>"; };
+		BA650AC8235ABC3E00F33062 /* CategoryTimeList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CategoryTimeList.plist; sourceTree = "<group>"; };
+		BA650ACA235AC02A00F33062 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = ../../../../Downloads/DateExtensions.swift; sourceTree = "<group>"; };
+		BA650ACC235AC04800F33062 /* QrCodeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QrCodeUtils.swift; path = ../../../../Downloads/QrCodeUtils.swift; sourceTree = "<group>"; };
 		BA6534392353F53A001A6480 /* CategoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFactory.swift; sourceTree = "<group>"; };
 		BA66791A2357F3F30050FC7F /* BookFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFactory.swift; sourceTree = "<group>"; };
+		BA7F82AE23595D5F0070EFCF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BA7F82B0235960C30070EFCF /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		BA7F82B22359690F0070EFCF /* AlertExtenslons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertExtenslons.swift; path = ../../../Movies/Movies/Utils/AlertExtenslons.swift; sourceTree = "<group>"; };
 		BA7FE2582351509C00BBEB14 /* DoubanBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7FE25B2351509C00BBEB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7FE25D2351509C00BBEB14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +133,7 @@
 				BA7FE267235150A400BBEB14 /* LaunchScreen.storyboard */,
 				BA7FE26A235150A400BBEB14 /* Info.plist */,
 				BA7FE27E2351531B00BBEB14 /* DoubanBooks.xcdatamodeld */,
+				BA650AC8235ABC3E00F33062 /* CategoryTimeList.plist */,
 			);
 			path = DoubanBooks;
 			sourceTree = "<group>";
@@ -146,6 +161,7 @@
 		BA7FE29423516A3E00BBEB14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA7F82AE23595D5F0070EFCF /* CategoryCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +188,8 @@
 		BA7FE29823516AB000BBEB14 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA7F82B0235960C30070EFCF /* CategoriesController.swift */,
+				BA650AC6235A8EF500F33062 /* AddCategoryController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +197,9 @@
 		BA7FE29B23516B0000BBEB14 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BA650ACC235AC04800F33062 /* QrCodeUtils.swift */,
+				BA650ACA235AC02A00F33062 /* DateExtensions.swift */,
+				BA7F82B22359690F0070EFCF /* AlertExtenslons.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -265,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7FE269235150A400BBEB14 /* LaunchScreen.storyboard in Resources */,
+				BA650AC9235ABC3E00F33062 /* CategoryTimeList.plist in Resources */,
 				BA7FE266235150A400BBEB14 /* Assets.xcassets in Resources */,
 				BA7FE2612351509C00BBEB14 /* Main.storyboard in Resources */,
 			);
@@ -285,7 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7FE2A22351825500BBEB14 /* DataError.swift in Sources */,
+				BA650ACB235AC02A00F33062 /* DateExtensions.swift in Sources */,
+				BA650AC7235A8EF500F33062 /* AddCategoryController.swift in Sources */,
 				BA7FE289235159DF00BBEB14 /* DoubanBooks.xcdatamodeld in Sources */,
+				BA7F82AF23595D5F0070EFCF /* CategoryCell.swift in Sources */,
+				BA650ACD235AC04800F33062 /* QrCodeUtils.swift in Sources */,
 				BAEA59122355ACB700FE5FC4 /* BookRepository.swift in Sources */,
 				BA7FE25E2351509C00BBEB14 /* ViewController.swift in Sources */,
 				BA65343A2353F53A001A6480 /* CategoryFactory.swift in Sources */,
@@ -295,7 +321,9 @@
 				BAEA59142355CBFF00FE5FC4 /* Repository.swift in Sources */,
 				BAEA59162355CC9400FE5FC4 /* DataViewModelDelegate.swift in Sources */,
 				BA7FE29D23516BC500BBEB14 /* CategoryRepository.swift in Sources */,
+				BA7F82B32359690F0070EFCF /* AlertExtenslons.swift in Sources */,
 				BA7FE25C2351509C00BBEB14 /* AppDelegate.swift in Sources */,
+				BA7F82B1235960C30070EFCF /* CategoriesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
